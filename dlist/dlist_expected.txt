@@ -1,0 +1,83 @@
+Starting scenario1 tests:
+
+New list created. 		Test Passed
+
+The list is empty. 		Test Passed
+Counted 0 nodes in my_list. 	Test Passed
+Get iterator to beginning. 	Test Passed
+Get iterator to next (NULL).	Test Passed
+Get iterator to end.		Test Passed
+End iter is equal to start. 	Test Passed
+
+First node inserted.
+
+The list is not empty. 		Test Passed
+Counted 1 node in my_list. 	Test Passed
+The data value is correct. 	Test Passed
+Setting data of first node
+The data value is correct. 	Test Passed
+-6 
+
+Another node inserted.
+
+Another node inserted.
+2 10 -6 
+
+Removing node from the list.
+
+Counted 2 nodes in my_list. 	Test Passed
+2 -6 
+
+Removing node from the list.
+Counted 1 nodes in my_list. 	Test Passed
+-6 
+
+Removing node from the list.
+
+Counted 0 nodes in my_list. 	Test Passed
+
+Destroying empty list.
+
+Starting scenario2 tests:
+New list created. 		Test Passed
+Inserting 6 nodes.
+3 77 -777 
+The data value is correct. 	Test Passed
+The data value is correct. 	Test Passed
+The data value is correct. 	Test Passed
+The list is not empty. 		Test Passed
+Counted 7 nodes in my_list. 	Test Passed
+DlistFind found Test 		Test Passed
+DlistFind not found Test 	Test Passed
+
+Destroying the list.
+
+Testing Push & Pop:
+Counted 1 nodes in my_list. 	Test Passed
+Popped data value is correct. 	Test passed
+Counted 0 nodes in my_list. 	Test Passed
+Counted 1 nodes in my_list. 	Test Passed
+Popped data value is correct. 	Test passed
+Counted 0 nodes in my_list. 	Test Passed
+
+Multi Find & Splice:
+list1:
+1 2 3 4 5 6 7 8 9 10 11 12 
+Find all even numbers in list1
+All matches found 		Test Passed
+list2 of found evens:
+2 4 6 8 10 12 
+Splice [4,8) from list1 to the end of list 2:
+list1 after splice:
+1 2 3 8 9 10 11 12 
+list2 after splice:
+2 4 6 8 10 12 4 5 6 7 
+Starting Append lists tests:
+
+Counted 5 nodes in list1. 	Test Passed
+1 1 1 1 1 
+Counted 5 nodes in list2. 	Test Passed
+2 2 2 2 2 
+Appending list2 to the end of list1:
+Counted 10 nodes in new list1. 	Test Passed
+1 1 1 1 1 2 2 2 2 2 

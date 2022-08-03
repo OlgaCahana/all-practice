@@ -1,0 +1,8 @@
+Test release FSPoolCalcSize. 		Test Passed
+Test full FSPoolCountFreeChunks. 	Test Passed
+allocate 10 chunks of memory
+Test empty FSPoolCountFreeChunks. 	Test Passed
+No memory left in the pool!
+Test  FSPoolCountFreeChunks. 		Test Passed
+Test  FSPoolCountFreeChunks. 		Test Passed
+Test full FSPoolCountFreeChunks. 	Test Passed
